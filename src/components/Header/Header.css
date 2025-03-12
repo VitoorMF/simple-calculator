@@ -19,6 +19,7 @@
   transform: translateY(-50%);
 
   height: 50px;
+
   background-color: #f4f4f4;
   padding: 10px 20px;
 
@@ -34,6 +35,10 @@
 
   border: none;
   outline: none;
+
+  @media (max-width: 350px) {
+    width: 65px;
+  }
 }
 
 .historyBtn:hover {
