@@ -1,0 +1,45 @@
+.App-header {
+  background-color: #282c34;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+
+  font-weight: 500;
+}
+
+.historyBtn {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 50px;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+
+  border: none;
+  outline: none;
+}
+
+.historyBtn:hover {
+  background-color: #e0e0e0;
+}
+
+.historyBtn:active {
+  transform: translateY(-50%) scale(0.95);
+}
