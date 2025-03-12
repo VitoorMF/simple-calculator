@@ -9,16 +9,11 @@ const operationsList = [" ÷ ", " x ", " - ", " + "];
 
 function App() {
   const [operation, setOperation] = useState("");
-  const [clear, setClear] = useState(false);
   const [history, setHistory] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [previousOperation, setPreviousOperation] = useState("");
 
   const handleButtonClick = (button) => {
-    if (clear === true) {
-      handleClear();
-      setClear(false);
-    }
     setOperation((prev) => prev + button);
   };
 
@@ -33,8 +28,6 @@ function App() {
   };
 
   const handleCalculate = () => {
-    setClear(true);
-
     switch (operation) {
       case "":
         return;
