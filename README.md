@@ -5,14 +5,22 @@ Um projeto de calculadora simples, para meu portfolio.
 ## Instalação
 
 1. Clone o repositório:
-  ```bash
-  git clone https://github.com/VitoorMF/simple-calculator.git
-  ```
+
+```bash
+git clone https://github.com/VitoorMF/simple-calculator.git
+```
+
 2. Instale as dependências:
-  npm install
+
+```bash
+npm install
+```
 
 3. Inicie o projeto:
-  npm start
+
+```bash
+npm start
+```
 
 ## Uso
 
