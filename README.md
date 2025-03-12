@@ -7,7 +7,7 @@ Um projeto de calculadora simples, para meu portfolio.
 1. Clone o repositório:
   ```bash
   git clone https://github.com/VitoorMF/simple-calculator.git
-
+  ```
 2. Instale as dependências:
   npm install
 
